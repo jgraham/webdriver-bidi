@@ -1889,7 +1889,7 @@ The [=remote end subscribe steps=], with [=subscribe priority=] 1, given
       <pre class="cddl local-cddl">
         BrowsingContextDestroyedEvent = {
          method: "browsingContext.contextDestroyed",
-         params: BrowsingContextInfo
+         params: { context: BrowsingContext}
        }
       </pre>
    </dd>
